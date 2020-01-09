@@ -1,0 +1,1 @@
+alert("Velkommen til Verdens Bedste Ostebiks");

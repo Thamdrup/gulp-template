@@ -1,0 +1,1 @@
+console.log("Endnu engang velkommen til Verdens Bedste Ostebiks !")
