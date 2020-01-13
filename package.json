@@ -1,8 +1,11 @@
 {
-  "name": "NewProj",
-  "version": "1.0.0",
+  "name": "@thamdrup/gulp-template",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "init": "./index"
+  },
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
@@ -13,13 +16,23 @@
     "url": "git+https://github.com/Thamdrup/gulp-template.git"
   },
   "bugs": "https://github.com/Thamdrup/gulp-template/issues",
-  "homepage" : "https://github.com/Thamdrup/gulp-template#readme",
-  "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/Thamdrup/gulp-template#readme",
+  "keywords": [
+    "Gulp",
+    "sass",
+    "pug",
+    "imagemin",
+    "babel",
+    "boilerplate"
+  ],
+  "author": "Rasmus Thamdrup <rashoch@gmail.com>",
   "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
   "devDependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
+    "@babel/core": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.2.0",
@@ -29,7 +42,6 @@
     "gulp-pug": "^4.0.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemap": "^1.0.1",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0"
